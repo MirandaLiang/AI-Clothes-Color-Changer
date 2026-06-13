@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+/**
+ * Design tokens — single source of truth.
+ * Mirrors the Figma file "Design System - Claude Code".
+ * Components reference these via Tailwind utilities (text-ink, bg-canvas, …);
+ * never hardcode hex values in components.
+ */
+@theme {
+  --color-ink: #16161d;
+  --color-ink-2: #5c5c66;
+  --color-primary: #3d3dd8;
+  --color-accent: #e62ed0;
+  --color-positive: #0e9f6e;
+  --color-canvas: #eff0f6;
+  --color-backdrop: #e5e9ec;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* ZARA-style letterspacing scale (from Figma: 2.24/16, 1.32/11, 2.16/12) */
+  --tracking-display: 0.14em;
+  --tracking-label: 0.12em;
+  --tracking-cta: 0.18em;
+}

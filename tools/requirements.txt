@@ -1,0 +1,5 @@
+# Asset generation pipeline (tools/build_garment_mask.py, tools/recolor_garment.py)
+Pillow>=10.0
+numpy>=1.26
+scipy>=1.11
+scikit-image>=0.22
