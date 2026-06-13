@@ -18,6 +18,9 @@ This project is structured following modern frontend standards to guarantee a fr
 * **Build Tool:** Vite (Optimized for fast hot-module replacement)
 * **Styling:** Tailwind CSS (Utility-first styling matching modern design system tokens)
 
+## 🌐 Demo View from my portfolio
+https://www.mirandaliang.com/vibe-design
+
 ## 💻 Local Development
 To run this prototype locally and inspect the interactive components:
 
